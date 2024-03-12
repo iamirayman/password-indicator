@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <!-- google icons -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+  <title>Password Indicator</title>
+</head>
+<body>
+  <div class="container">
+    <input onkeyup="check()" type="password" id="password" placeholder="password">
+    <p id="strength">the password is <span id="power"></span>
+    </p>
+  </div>
+  <button id="view" onclick="view()">
+    <span title="Show Password" class="material-symbols-outlined">
+      visibility_off
+    </span>
+  </button>
+  <script src="main.js">
+</script>
+</body>
+</html>
